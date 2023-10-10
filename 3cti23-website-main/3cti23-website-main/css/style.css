@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: rgba(198, 198, 198, 0.45);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+    color: #000000;
+}
+
+footer p {
+    text-align: center;
+    padding: 50px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logotipo,
+.itensrodape,
+.sociais {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+footer .menurodape {
+    background-color: rgba(0, 0, 0, 0.50);
+    color: #ffffff;
+    height: 300px;
+}
+
+footer .itensrodape a,
+footer .sociais {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.sociais p{
+    float: right;
+}
+
+.logotipo img{
+    width: 80%;
+    height: 250px;
+    float: center;
+
+}
+.logotipo{
+    margin-top: 20px;
+    height: 300px;
+    float: left;
+
+}
+.localizacao{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(198, 198, 198, 0.45) ;
+}
+.localizacao.endereco,
+.localizacao.mapa {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    
+}
+.mapa{
+    border: 4px solid rgb(255, 255, 255);
+    text-align: center;
+    float: right;
+    margin-top: 40px;
+
+}
+.endereco h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    border-radius: 100px;
+    border: 2px solid #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.17) 35.94%, rgba(0, 0, 0, 0.35) 100%);
+    margin-bottom: 45px;
+}
+
+.endereco p {
+    padding: 20px;
+    line-height: 25px;
+    font-size: 22px;
+    color: #000;
+}
+
+.localizacao .endereco {
+    float: left;
+    margin-top: 5%;
+
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+a {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btnBlack{
+    color: #000000;
+    background: rgba(239, 200, 99, 0.61);
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+.btnBlack2{
+    color: #000000;
+    background: rgba(239, 200, 99, 0.61);
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+.btnBlue {
+    color: #FCFBFB;
+    background-color: #1a1a1a;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+
+.btnBlue {
+    background-color: #0303FD;
+}
+
+.maisAtracoes {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.destaque {
+    width: 350px;
+    border-radius: 180px;
+    height: 350px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.destaque.direito {
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.destaque.esquerdo {
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.destaque img {
+    min-height: 100%;
+    height: 100%;
+    opacity: 65%;
+    
+}
+
+.descricao {
+    display: inline-block;
+    width: 800px;
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: justify;
+    color: #fff;
+}
+
+.descricao h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+    background-color: #6965625e;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.projeto1 {
+    background-image: url('../img/casa.png');
+    margin-top: 40px;
+}
+
+.projeto2 {
+    background-image: url('../img/3d.jpg');
+}
+
+.projeto3 {
+    background-image: url('../img/gamer.png');
+}
+
+.projeto4 {
+    background-image: url('../img/drone.jpg');
+}
+
+.projetos {
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    content: "";
+    background-position: center 33%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -99;
+    margin-top: 15px;
+}
+
+.bg {
+    background-color: #1a1a1ad4;
+    display: flex;
+}
+
+.both {
+    clear: both;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.titulo2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.center {
+    text-align: center;
+}
+
+.imagem {
+    float: left;
+    width: 40%;
+}
+
+.imagem img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.praca .descricao {
+    width: 56%;
+    color: #000000;
+}
+
+.praca {
+    height: 650px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+}
+
+.praca4 {
+    height: 700px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.center4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.container4 {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.titulo4 {
+    color: #000000;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    padding-top: 2%;
+    font-weight: bold;
+}
+.desss{
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    border-radius: 20px;
+    background: rgba(177, 177, 177, 0.25);
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+}
+.titulo-descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagem4 {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.imagem4 img {
+    max-width: 85%; /* Defina a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.descricao4 {
+    max-width: 80%;
+    color: #000000;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 10px; /* Adicione margem superior para separar o texto do título */
+}
+
+
+
+
+
+.praca .titulo {
+    color: #000000;
+}
+
+hr {
+    color: #fff;
+    width: 100%;
+}
+
+.stands {
+    color: #fff;
+}
+
+.item {
+    float: left;
+    width: 25%;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+
+
+.noticias .imagem {
+    width: 100%;
+}
+
+.noticias h3 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.noticias .item {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.noticias .texto {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.blog {
+    padding: 70px 0;
+}
+
+.maisdoblog {
+    margin-top: 14px;
+    float: right;
+    color: #1A1A1A;
+    font-size: 22px;
+    margin-right: 2.5%;
+}
+
+.apoio {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+}
+
+.apoio li {
+    width: 10%;
+    margin: 3%;
+    display: inline-block;
+}
+
+.apoio li img {
+    width: 100%;
+}
+
+.apoio {
+    color: #000000;
+    padding: 40px 0;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    height: 115px;
+}
+.right-images {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px; /* Espaço entre as imagens */
+}
+
+.right-images img {
+    width: 50px; /* Largura das imagens */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+header nav a {
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+width: 120px;
+height: 25px;
+color: #696562;
+text-align: center;
+font-family: Inder;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    color: rgba(105, 101, 98, 1);
+    text-decoration: none;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    margin: 20px;
+}
+
+section {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header .logo img {
+    margin-top: 10px;
+    width: 180px;
+    height: 85px;
+}
+.banner {
+    position: relative;
+    text-align: center; /* Centraliza o conteúdo dentro do banner */
+}
+header nav {
+    padding-top: 22px;
+}
+.background {
+    background-image: url(../img/fund.png);
+    display: block;
+    width: 100%;
+    height: 400px;
+    content: "";
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.desfoque {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* Centraliza o retângulo desfocado vertical e horizontalmente */
+    width: 50%; /* Largura do retângulo desfocado (ajuste conforme necessário) */
+    height: 45%; /* Altura do retângulo desfocado (ajuste conforme necessário) */
+    background: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(2px); /* Desfoque */
+    opacity: 0.7; /* Opacidade */
+    z-index: 3;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1; /* Coloca o desfoque acima do desfoque2 */
+}
+.desfoque2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* Centraliza o retângulo desfocado vertical e horizontalmente */
+    width: 80%; /* Largura do retângulo desfocado (ajuste conforme necessário) */
+    height: 80%; /* Altura do retângulo desfocado (ajuste conforme necessário) */
+    background: rgba(217, 217, 217, 0.50);
+backdrop-filter: blur(10px);
+    opacity: 0.7; /* Opacidade */
+    z-index: 0;
+}
+.slider {
+    position: relative;
+}
+
+.texto-dir {
+    position: relative;
+padding-top: 30px;
+    color: #000000;
+    width: 600px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 2;
+}
+
+
+.texto-h h1 {
+    padding-top: 65px;
+    color: #fff;
+    font-size: 150px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.sobre {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.sobre .img {
+    margin-right: 30px;
+    width: 20%;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.sobre .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.sobre .conteudo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Centraliza verticalmente entre título e botão */
+}
+
+.titulo2 {
+    font-size: 37px;
+    margin-top: 0; /* Remova a margem superior para alinhar no topo */
+}
+
+.sobre2 {
+    color: #000;
+    width: 80%;
+    font-family: Inder;
+    font-size: 1.55rem; /* Usando "rem" para tamanho de fonte */
+    font-style: normal;
+    text-align: justify;
+    margin-top: 2.5%; /* Ajusta o espaçamento entre o título e o parágrafo */
+}
+
+.btnBlack {
+    font-size: 18px;
+    margin-top: auto; /* Empurre o botão para a parte inferior */
+    width: 200px;
+}
+
+
+
+
