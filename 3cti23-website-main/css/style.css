@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+ body {
+     background-color: rgba(198, 198, 198, 0.45);
+     font-family: 'Noto Sans', sans-serif;
+}
+ footer {
+     color: #000000;
+}
+ footer p {
+     text-align: center;
+     padding: 50px;
+}
+.itensrodape, .sociais {
+    display: inline-block;
+    text-align: center;
+    margin: 0 5%; /* Adicione um espaço de 10px à esquerda e à direita */
+}
+ footer .menurodape {
+     background-color: rgba(0, 0, 0, 0.50);
+     color: #ffffff;
+     height: 300px;
+}
+footer .itensrodape a, footer .sociais {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.rodadee {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%;
+}
+.sociais p {
+    float: right;
+}
+ .logotipo img{
+     width: 80%;
+     height: 250px;
+     float: center;
+}
+.logotipo {
+    float: left;
+    margin-right: 10%; /* Adicione um espaço de 10px à direita */
+}
+ .localizacao{
+     width: 100%;
+     height: 400px;
+     text-align: center;
+     display: inline-block;
+     background-color: rgba(198, 198, 198, 0.45) ;
+}
+.endereco {
+    width: 49%;
+    display: inline-block;
+    text-align: center; /* Centraliza horizontalmente */
+    margin-right: 5%; /* Adicione um espaço de 2% à direita */
+}
+
+.localizacao.mapa {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%; /* Adicione um espaço de 2% à esquerda */
+}
+ .mapa{
+     border: 4px solid rgba(0, 0, 0, 0.11);
+     text-align: center;
+     float: right;
+}
+.endereco h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #000;
+    border-radius: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Diminui a opacidade da borda ajustando o valor alfa */
+    background: linear-gradient(200deg, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.1) 100%);
+    margin-bottom: 45px;
+    padding: 20px; /* Adicione preenchimento ao redor do texto */
+}
+
+
+
+ .endereco p {
+     padding: 20px;
+     line-height: 25px;
+     font-size: 22px;
+     color: #000;
+}
+.center20 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%;
+}
+
+ a:hover {
+     opacity: 0.7;
+     transition: 0.3s;
+}
+ a {
+     opacity: 1;
+     transition: 0.3s;
+}
+ .btnBlack{
+     color: #000000;
+     background: rgba(239, 200, 99, 0.61);
+     font-size: 20px;
+     text-align: center;
+     display: inline-block;
+     padding: 10px 20px;
+     font-weight: 900;
+}
+ .btnBlack2 {
+     color: #000000;
+     background: rgba(239, 200, 99, 0.61);
+     font-size: 27px;
+     width: 100%;
+     height: 35px;
+     text-align: center;
+     display: inline-block;
+     font-weight: 700;
+     line-height: 35px;
+    /* Centraliza o texto verticalmente */
+     opacity: 85%;
+}
+ .btnBlue {
+     color: #FCFBFB;
+     background-color: #1a1a1a;
+     font-size: 30px;
+     text-align: center;
+     display: inline-block;
+     padding: 10px 20px;
+     font-weight: 900;
+}
+ .btnBlue {
+     background-color: #0303FD;
+}
+ .maisAtracoes {
+     text-align: center;
+     padding: 100px 0;
+}
+ .destaque {
+     width: 350px;
+     border-radius: 180px;
+     height: 350px;
+     overflow: hidden;
+     display: inline-block;
+     margin: 20px 0;
+}
+ .destaque.direito {
+     float: right;
+     border: 2px solid rgb(255, 255, 255);
+     margin-right: 20%; /* Adicione um espaçamento à direita */
+}
+.destaque.esquerdo {
+    float: right;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 20%; /* Adicione um espaçamento à direita */
+}
+ .destaque img {
+     min-height: 100%;
+     height: 100%;
+     opacity: 65%;
+}
+
+.descricao {
+    display: inline-block;
+    width: 800px;
+    font-size: 22px;
+    text-align: justify;
+    color: #fff;
+}
+.descricao h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 50px;
+    background-color: #00000046;
+    border-radius: 20px;
+    background-size: cover;
+    padding: 20px; /* Adicione preenchimento ao redor do texto */
+}
+
+.descricao p {
+    opacity: 85%;
+}
+ .projeto1 {
+     background-image: url('../img/casa.png');
+     margin-top: 40px;
+}
+ .projeto2 {
+     background-image: url('../img/3d.jpg');
+}
+ .projeto3 {
+     background-image: url('../img/gamer.png');
+}
+ .projeto4 {
+     background-image: url('../img/drone.jpg');
+}
+.projetos {
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 20px;
+    content: "";
+    background-position: center 33%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -99;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.bg {
+    background-color: #1a1a1ad4;
+    width: 100%;
+}
+
+.center34 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+
+
+ .both {
+     clear: both;
+}
+ .titulo {
+     font-size: 40px;
+     font-weight: 900;
+}
+ .titulo2 {
+     font-size: 40px;
+     font-weight: 900;
+}
+ .center {
+     text-align: center;
+}
+ .imagem {
+     float: left;
+     width: 40%;
+}
+ .imagem img {
+     width: 100%;
+     height: 500px;
+     margin-top: 40px;
+     border: 2px solid black;
+}
+ .marcas{
+     float: center;
+     height: 180px;
+     text-align: center;
+     margin-top: 30px;
+}
+ .praca .descricao {
+     width: 56%;
+     color: #000000;
+}
+ .praca {
+     height: 650px;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+}
+ .praca4 {
+     height: 650px;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+     display: flex;
+     align-items: center;
+    /* Centraliza verticalmente o conteúdo */
+     justify-content: center;
+     margin-bottom: 0;
+}
+ .container4 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+}
+ .desss {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
+     height: 80px;
+     text-align: center;
+     border-radius: 20px;
+    /* Define os cantos arredondados */
+     background: rgba(177, 177, 177, 0.25);
+     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.50);
+}
+ .titulo4 {
+     color: #000000;
+     font-size: 35px;
+     margin: 0;
+     font-weight: bold;
+}
+ .titulo-descricao {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 623px;
+}
+ .imagem4 {
+     flex-shrink: 0;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+    /* Para alinhar o conteúdo ao centro */
+     height: 100%;
+}
+ .imagem4 img {
+     max-width: 90%;
+     height: auto;
+}
+ .descricao4 {
+     max-width: 80%;
+     color: #000000;
+     padding: 20px;
+     font-size: 2vw;
+    /* 3% da largura da viewport */
+     margin-top: 70px;
+    /* Adicione margem superior para separar o texto do título */
+}
+ .praca .titulo {
+     color: #000000;
+}
+ hr {
+     color: #fff;
+     width: 100%;
+}
+ .stands {
+     color: #fff;
+}
+ .item {
+     float: left;
+     width: 25%;
+     margin-bottom: 40px;
+     line-height: 22px;
+}
+ .noticias .imagem {
+     width: 100%;
+}
+ .noticias h3 {
+     font-weight: bold;
+}
+ .noticias .item {
+     width: 30%;
+     margin: 1.5%;
+}
+ .noticias .texto {
+     margin-bottom: 20px;
+     opacity: 77%;
+}
+ .blog {
+     padding: 70px 0;
+}
+ .maisdoblog {
+     margin-top: 14px;
+     float: right;
+     color: #1A1A1A;
+     font-size: 22px;
+     margin-right: 2.5%;
+     opacity: 50%;
+}
+ .apoio {
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.17) 100%);
+     height: 250px;
+}
+ .apoio li {
+     width: 8vw;
+    /* 8% da largura da viewport */
+     height: 14vh;
+    /* 14% da altura da viewport */
+     max-width: 100%;
+    /* Limita a largura máxima */
+     max-height: 100%;
+    /* Limita a altura máxima */
+     margin: 0 3%;
+    /* Espaçamento à esquerda e direita de 3% */
+     display: inline-block;
+     box-sizing: border-box;
+    /* Isso garante que as margens não aumentem o tamanho total do elemento */
+}
+ .apoio img {
+     max-width: 100%;
+    /* Limita a largura máxima da imagem ao contêiner */
+     height: auto;
+    /* Isso mantém a proporção original da imagem */
+     max-height: 100%;
+    /* Limita a altura máxima da imagem ao contêiner */
+}
+ .apoio {
+     color: #000000;
+     padding: 10px 0;
+}
+ header {
+     padding: 10px;
+     height: 115px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+ .right-images {
+     display: flex;
+     align-items: center;
+     float: right;
+     gap: 50px;
+    /* Espaço entre as imagens */
+     margin-top: -14px;
+}
+ .right-images img {
+     width: 50px;
+    /* Largura das imagens */
+     height: auto;
+    /* Mantém a proporção original da imagem */
+}
+ header nav a {
+     font-family: Inder;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     color: rgba(105, 101, 98, 1);
+     text-decoration: none;
+     margin: 0 auto;
+}
+ header nav section{
+     display: flex;
+     align-items: center;
+     float: center;
+     margin: 0 auto;
+}
+ header .logo {
+     float: left;
+     margin-right: 20px;
+}
+ header nav ul li {
+     display: flex;
+     float: left;
+     justify-content: space-between;
+    /* Espaço igual entre os elementos li */
+     padding: 0;
+     list-style: none;
+}
+ header nav ul li {
+     margin: 0 2%;
+    /* Define uma margem de 0 no topo e na base e 1% nos lados esquerdo e direito */
+}
+ header .logo img {
+     margin-top: 10px;
+     width: 180px;
+     height: 85px;
+}
+ .banner {
+     position: relative;
+     text-align: center;
+    /* Centraliza o conteúdo dentro do banner */
+}
+ header nav {
+     padding-top: 50px;
+}
+ .background {
+     background-image: url(../img/fund.png);
+     display: block;
+     width: 100%;
+     height: 400px;
+     content: "";
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+}
+ .desfoque {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+    /* Centraliza o retângulo desfocado vertical e horizontalmente */
+     width: 50%;
+    /* Largura do retângulo desfocado (ajuste conforme necessário) */
+     height: 45%;
+    /* Altura do retângulo desfocado (ajuste conforme necessário) */
+     background: rgba(0, 0, 0, 0.26);
+     backdrop-filter: blur(2px);
+    /* Desfoque */
+     opacity: 0.7;
+    /* Opacidade */
+     z-index: 3;
+     border-radius: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     z-index: 1;
+    /* Coloca o desfoque acima do desfoque2 */
+}
+ .desfoque2 {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+    /* Centraliza o retângulo desfocado vertical e horizontalmente */
+     width: 80%;
+    /* Largura do retângulo desfocado (ajuste conforme necessário) */
+     height: 80%;
+    /* Altura do retângulo desfocado (ajuste conforme necessário) */
+     background: rgba(217, 217, 217, 0.50);
+     backdrop-filter: blur(10px);
+     opacity: 0.7;
+    /* Opacidade */
+     z-index: 0;
+}
+ .slider {
+     position: relative;
+}
+ .texto-dir {
+     position: relative;
+     padding-top: 30px;
+     color: #000000;
+     width: 600px;
+     text-align: center;
+     font-size: 30px;
+     z-index: 2;
+}
+ .texto-h h1 {
+     padding-top: 65px;
+     color: #fff;
+     font-size: 150px;
+     font-weight: 400;
+     text-align: center;
+     position: relative;
+     z-index: 2;
+}
+ .sobre {
+     display: flex;
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+ .sobre .img {
+     margin-right: 120px;
+     width: 20%;
+     border: 2px solid #000;
+     box-sizing: border-box;
+     flex-shrink: 0;
+     margin-left: 120px;
+}
+ .sobre .img img {
+     width: 100%;
+     height: 100%;
+}
+ .sobre .conteudo {
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    /* Centraliza verticalmente entre título e botão */
+}
+ .titulo2 {
+     font-size: 48px;
+     margin-top: 0;
+    /* Remova a margem superior para alinhar no topo */
+}
+ .sobre2 {
+     color: #000;
+     width: 90%;
+     font-family: Inder;
+     font-size: 1.65rem;
+    /* Usando "rem" para tamanho de fonte */
+     font-style: normal;
+     text-align: justify;
+     margin-top: 2.5%;
+    /* Ajusta o espaçamento entre o título e o parágrafo */
+}
+ .btnBlack {
+     font-size: 30px;
+     margin-top: auto;
+    /* Empurre o botão para a parte inferior */
+     width: 300px;
+     height: 30px;
+     opacity: 85%;
+}
+ 
